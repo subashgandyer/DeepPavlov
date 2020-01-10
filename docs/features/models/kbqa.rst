@@ -12,7 +12,7 @@ is an entity, possible mentioned in a Knowledge Base.
 Wikidata.
 Substring extracted by the NER model is used for entity linking. Entity linking preforms matching the substring
 with one of the Wikidata entities. Matching is based on Levenshtein distance between the substring and an entity
-description. The result of the matching procedure is a set of candidate entities. The reset is search of the
+description. The result of the matching procedure is a set of candidate entities. The rest is search of the
 entity among this set with one of the top-k relations predicted by classification model.
 
 
